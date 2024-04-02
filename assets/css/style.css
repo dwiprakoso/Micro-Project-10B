@@ -60,3 +60,66 @@ nav .navbar-nav .nav-item :hover{
 .container .search-box form .col-auto3{
     width: 150px;
 }
+/* pelayanan kami */
+ .pelayanan-kami{
+    /* width: 1440px; */
+    margin-top: 47px;
+    height: 444px;
+    background: linear-gradient(90deg, rgba(32, 94, 177, 0.70) 0%, rgba(131, 166, 214, 0.70) 100%);
+ }
+ .pelayanan-kami h2{
+    color: #181818;
+    font-family: "Adobe Gothic Std";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-top: 20px;
+ }
+ .pelayanan-kami .container .row{
+    text-align: center;
+    margin-top: 21px;
+ }
+ /* artikel */
+ .artikel{
+    height: 480px;
+    background: linear-gradient(90deg, rgba(32, 94, 177, 0.10) 0%, rgba(131, 166, 214, 0.10) 100%);
+ }
+ .artikel h2{
+    color: #181818;
+    font-family: "Adobe Gothic Std";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+ }
+.artikel .container .row{
+   text-align: center;
+   margin-top: 21px;
+}
+/* kegiatan populer */
+.kegiatanPopuler h2{
+    color: #181818;
+    font-family: "Adobe Gothic Std";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+ }
+.kegiatanPopuler .container .row{
+   text-align: center;
+   margin-top: 21px;
+}
+/* galery */
+.galery h2{
+    color: #181818;
+    text-align: center;
+    font-family: "Adobe Gothic Std";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
