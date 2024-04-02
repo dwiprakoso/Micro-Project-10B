@@ -1,7 +1,5 @@
 /* navbar */
 nav .navbar-nav .nav-item{
-    width: 88px;
-    height: 35px;
     border-radius: 10px;
     text-align: center;
     margin-left: 48px;
@@ -11,10 +9,7 @@ nav .navbar-nav .nav-item{
     line-height: normal;
     letter-spacing: 0.32px;
 }
-
-nav .navbar-nav .nav-item :hover{
-    width: 88px;
-    height: 35px;
+nav .active{
     border-radius: 10px;
     background: #91B0D9;
     color: #fff;
@@ -25,9 +20,43 @@ nav .navbar-nav .nav-item :hover{
     line-height: normal;
     letter-spacing: 0.32px;
 }
-/* nav .navbar-nav .nav-item :active {
-    width: 88px;
-    height: 35px;
+nav .navbar-nav .nav-item :hover{
     border-radius: 10px;
     background: #91B0D9;
-} */
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+/* hero-image */
+.container .hero-image{
+    margin-top: 50px;
+    text-align: center;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30); */
+}
+.container .search-box{
+    width: 1030px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.15);
+    margin: auto;
+}
+.container .search-box .form{
+        /* Center horizontally */
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* justify-content: center; */
+}
+.container .search-box form .col-auto{
+    width: 250px;
+}
+.container .search-box form .col-auto2{
+    width: 200px;
+}
+.container .search-box form .col-auto3{
+    width: 150px;
+}
