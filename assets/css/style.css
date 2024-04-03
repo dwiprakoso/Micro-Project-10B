@@ -114,7 +114,14 @@ nav .navbar-nav .nav-item :hover{
    margin-top: 21px;
 }
 /* galery */
+.galery{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
 .galery h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
     color: #181818;
     text-align: center;
     font-family: "Adobe Gothic Std";
@@ -123,3 +130,58 @@ nav .navbar-nav .nav-item :hover{
     font-weight: 700;
     line-height: normal;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+.galery .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+  
+ .galery .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    /* filter: grayscale(1) brightness(0.5); */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  /* .galery .column img:hover {
+    filter: grayscale(0);
+  } */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .galery .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .galery .column img {
+      filter: grayscale(0) brightness(1);
+    }
+  }
+  /* footer */
+  .footer .logo {
+    text-align: center;
+  }
+  .footer .copyright{
+    margin-top: 49px;
+    height: 59px;
+    background: linear-gradient(90deg, #205EB1 0%, #83A6D6 100%);
+    text-align: center;
+  }
+  .footer .copyright p {
+    color: #fff;
+    padding-top: 20px;
+  }
+  .footer .copyright p a{
+    color: #fff;
+  }
