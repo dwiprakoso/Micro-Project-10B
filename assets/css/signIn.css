@@ -1,0 +1,919 @@
+.sign-in-child {
+    align-self: stretch;
+    height: 68px;
+    position: relative;
+    background-color: var(--white);
+    display: none;
+    z-index: 0;
+  }
+  .logo-area {
+    width: calc(100% - 372.7px);
+    height: 461px;
+    position: absolute;
+    margin: 0 !important;
+    top: 245.18px;
+    right: 372.7px;
+    left: 0;
+    transform: rotate(-7.1deg);
+  }
+  .logo-area,
+  .logo-area1,
+  .sign-in-form {
+    background-color: var(--color-steelblue-100);
+    transform-origin: 0 0;
+  }
+  .logo-area1 {
+    width: calc(100% - 372.7px);
+    height: 461px;
+    position: absolute;
+    margin: 0 !important;
+    top: 291.28px;
+    right: 372.7px;
+    left: 0;
+    transform: rotate(-7.1deg);
+    z-index: 1;
+  }
+  .sign-in-form {
+    width: 1985.7px;
+    height: 451.9px;
+    right: 362.1px;
+    bottom: -201.67px;
+    transform: rotate(-6.9deg);
+    z-index: 2;
+  }
+  .logo-area-parent,
+  .rectangle-icon,
+  .sign-in-form {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .logo-area-parent {
+    width: 2348px;
+    height: 590px;
+    right: -671px;
+    bottom: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-icon {
+    height: 16px;
+    width: 117.6px;
+    top: calc(50% - 8px);
+    right: 141.4px;
+    border-radius: 16px;
+  }
+  .sign-in1 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: var(--font-adobe-gothic-std);
+    color: var(--color-gray-100);
+    text-align: center;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .email-field,
+  .password-field {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .password-field {
+    flex: 1;
+    position: relative;
+  }
+  .email-field {
+    width: 401px;
+    padding: 0 0 26px;
+    box-sizing: border-box;
+  }
+  .email-address {
+    position: relative;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    font-family: var(--font-adobe-fan-heiti-std);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 91px;
+  }
+  .email-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-mid) 7px;
+  }
+  .email-field-label {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-inter);
+    color: var(--color-midnightblue);
+    text-align: left;
+    white-space: nowrap;
+  }
+  .content,
+  .label-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .content {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 11.9px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .input1,
+  .state-layer,
+  .text-field {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+  }
+  .state-layer {
+    border-radius: 3.96px 3.96px 0 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 3.9px;
+    box-sizing: border-box;
+  }
+  .input1,
+  .text-field {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-field {
+    height: 44px;
+    border-radius: 3.96px;
+    border: 1px solid var(--background-background0);
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0 var(--padding-mini) 0;
+  }
+  .input1 {
+    border-radius: 3.96px 3.96px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start;
+  }
+  .password {
+    width: 63px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-adobe-fan-heiti-std);
+    font-size: var(--font-size-sm);
+    background-color: transparent;
+    height: 20px;
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+  }
+  .input-area,
+  .input1-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .input1-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .input-area {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-lg);
+    box-sizing: border-box;
+  }
+  .eye-1-icon {
+    position: absolute;
+    top: 12px;
+    left: 346px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .state-layer1 {
+    width: calc(100% - 30px);
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    align-self: stretch;
+    height: 48.7px;
+    border-radius: 3.96px 3.96px 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15.899999999999636px 0 15.799999999999637px;
+    box-sizing: border-box;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-sm);
+    color: var(--color-midnightblue);
+    min-width: 221px;
+  }
+  .input11,
+  .text-field1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-field1 {
+    align-self: stretch;
+    height: 44px;
+    border-radius: 3.96px;
+    border: 1px solid var(--background-background0);
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0 var(--padding-mini) 0;
+  }
+  .input11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3.96px 3.96px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow: hidden;
+    justify-content: flex-start;
+    height: 100%;
+    z-index: 2;
+  }
+  .password-visibility {
+    height: 44px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .password-input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-mini) var(--padding-lg);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .confirm {
+    position: relative;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    font-family: var(--font-adobe-fan-heiti-std);
+    color: #fcecec;
+    text-align: left;
+    display: inline-block;
+    min-width: 54px;
+  }
+  .confirmation {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xs) var(--padding-150xl);
+    background-color: var(--blue-1);
+    align-self: stretch;
+    border-radius: var(--br-7xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+  }
+  .confirmation:hover {
+    background-color: #4799ff;
+  }
+  .checkmark-icon {
+    width: 14px;
+    height: 9.6px;
+    position: relative;
+  }
+  .checkbox {
+    height: 18px;
+    width: 18px;
+    border-radius: 1px;
+    background-color: var(--white);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .remember-me1 {
+    flex: 1;
+    position: relative;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 800;
+    font-family: var(--font-mulish);
+    color: var(--color-dimgray);
+    text-align: left;
+    flex-shrink: 0;
+  }
+  .checkbox-field {
+    height: 16px;
+    width: 173px;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .checkbox-area,
+  .checkbox-field,
+  .form-options,
+  .remember-me {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .checkbox-area {
+    flex-direction: row;
+    padding: 0 var(--padding-sm);
+  }
+  .form-options,
+  .remember-me {
+    max-width: 100%;
+  }
+  .remember-me {
+    flex: 1;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .form-options {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-12xs) var(--padding-smi) var(--padding-mid);
+    box-sizing: border-box;
+  }
+  .or-continue-with {
+    width: 120px;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 800;
+    font-family: var(--font-mulish);
+    color: var(--color-dimgray);
+    text-align: center;
+    display: inline-block;
+    min-width: 120px;
+  }
+  .form-fields,
+  .social-logins {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  .social-logins {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 42px;
+  }
+  .form-fields {
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 11px;
+    max-width: 100%;
+  }
+  .image-4-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    object-fit: cover;
+    min-height: 20px;
+  }
+  .or-continue-with1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 800;
+    font-family: var(--font-mulish);
+    color: var(--color-dimgray);
+    text-align: center;
+  }
+  .option-one,
+  .option-one-content,
+  .option-one-label {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .option-one-label {
+    width: 150px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .option-one,
+  .option-one-content {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .option-one-content {
+    cursor: pointer;
+    border: 1px solid var(--gray-5);
+    padding: var(--padding-xs) var(--padding-xl) 8px;
+    background-color: var(--white);
+    flex: 1;
+    border-radius: var(--br-7xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    gap: 16px;
+  }
+  .option-one {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-9xs);
+  }
+  .facebook-1-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+  }
+  .continue-with-facebook {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 800;
+    font-family: var(--font-mulish);
+    color: var(--white);
+    text-align: center;
+  }
+  .option-two,
+  .option-two-label {
+    display: flex;
+    align-items: flex-start;
+  }
+  .option-two-label {
+    width: 168px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2px 0 0;
+    box-sizing: border-box;
+  }
+  .option-two {
+    cursor: pointer;
+    border: 0;
+    padding: 10px var(--padding-xl) var(--padding-sm) 35px;
+    background-color: #475993;
+    align-self: stretch;
+    border-radius: var(--br-7xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+  .option-container,
+  .social-options {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .option-container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 13px;
+  }
+  .social-options {
+    width: 406px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-12xs) 9px;
+    box-sizing: border-box;
+  }
+  .register {
+    font-weight: 800;
+    color: #205eb1;
+  }
+  .dont-have-an-container {
+    width: 231px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .sign-up-prompt {
+    width: 399px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .form-container,
+  .header,
+  .sign-up-prompt {
+    display: flex;
+    max-width: 100%;
+  }
+  .form-container {
+    width: 418px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+  .header {
+    width: 1414px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-dimgray);
+    font-family: var(--font-mulish);
+  }
+  .background-icon {
+    height: 409px;
+    width: 1440px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .frame-child {
+    position: absolute;
+    width: calc(100% - 13.4px);
+    top: 0.4px;
+    right: 7.7px;
+    left: 5.7px;
+    border-radius: 26.5px;
+    background-color: #e8e8e8;
+    height: 115.7px;
+  }
+  .karya-seni-tanpa-judul-2-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 23px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .rectangle-parent {
+    width: 120.6px;
+    height: 137.6px;
+    position: relative;
+    z-index: 1;
+  }
+  .information {
+    width: 164.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 47.2px 0 0;
+    box-sizing: border-box;
+  }
+  .learn-more {
+    align-self: stretch;
+    height: 42.3px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    /* debug_commit: 1de1738; */
+    z-index: 1;
+  }
+  .artikel,
+  .donasi,
+  .kegiatan,
+  .konsultasi,
+  .kontak,
+  .tentang-kami {
+    margin: 0;
+  }
+  .about-alyeska-press-container {
+    width: 94px;
+    height: 211.6px;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    font-family: var(--font-adobe-heiti-std);
+    color: var(--color-gray-200);
+    display: inline-block;
+    flex-shrink: 0;
+    mix-blend-mode: normal;
+    /* debug_commit: 1de1738; */
+    z-index: 1;
+  }
+  .company-details {
+    width: 111.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi) 0 0;
+    box-sizing: border-box;
+    gap: 8.3px;
+  }
+  .divider,
+  .divider1 {
+    height: 2.2px;
+    width: 1097.6px;
+    position: relative;
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    display: none;
+    opacity: 0.15;
+    mix-blend-mode: normal;
+    max-width: 100%;
+  }
+  .divider1 {
+    height: 2px;
+    width: 1097.3px;
+  }
+  .tickets-booking {
+    height: 74.1px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    /* debug_commit: 1de1738; */
+    z-index: 1;
+  }
+  .tickets-booking-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 1.4px;
+  }
+  .donasi1,
+  .konsultasi1,
+  .pencarian-kegitan {
+    margin: 0;
+  }
+  .lift-tickets-season-container {
+    margin-top: -23.30000000000109px;
+    height: 141.1px;
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    /* debug_commit: 1de1738; */
+    z-index: 1;
+  }
+  .season-pass,
+  .ticket-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .season-pass {
+    width: 137.7px;
+    height: 117.8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+    font-family: var(--font-adobe-heiti-std);
+  }
+  .ticket-info {
+    flex: 1;
+    flex-direction: column;
+    min-width: 161px;
+  }
+  .contact-us {
+    width: 139.5px;
+    height: 48.6px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .lift-tickets-season {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    font-family: var(--font-adobe-heiti-std);
+    color: var(--color-gray-200);
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .contact-info {
+    width: 184.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.4px;
+    margin-left: -33px;
+  }
+  .alyeska-resor,
+  .nav-links {
+    flex-shrink: 0;
+    /* debug_commit: 1de1738; */
+  }
+  .nav-links {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 20px;
+  }
+  .alyeska-resor {
+    height: 34.9px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .copyright,
+  .navigation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .copyright {
+    width: 262.2px;
+    flex-direction: row;
+    padding: 0 var(--padding-7xs) 0 6.4px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: rgba(255, 255, 255, 0.75);
+    font-family: var(--font-adobe-heiti-std);
+  }
+  .navigation {
+    width: 399.2px;
+    flex-direction: column;
+    gap: 143.7px;
+    max-width: 100%;
+  }
+  .social {
+    height: 36px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .social-label {
+    width: 60.7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 5px 0 4.8px;
+    box-sizing: border-box;
+  }
+  .bxl-facebook-icon,
+  .instagram-logo-icon {
+    position: relative;
+    min-height: 18px;
+    z-index: 1;
+  }
+  .bxl-facebook-icon {
+    align-self: stretch;
+    width: 9.7px;
+    max-height: 100%;
+  }
+  .instagram-logo-icon {
+    height: 17.6px;
+    width: 18.7px;
+    object-fit: cover;
+  }
+  .bxl-twitter-icon {
+    width: 20.4px;
+    height: 15.6px;
+    position: relative;
+    z-index: 1;
+  }
+  .social-icons,
+  .twitter-icon-area {
+    display: flex;
+    align-items: flex-start;
+  }
+  .twitter-icon-area {
+    width: 20.4px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+  }
+  .social-icons {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .social-links,
+  .social-media {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-links {
+    align-self: stretch;
+    display: flex;
+    gap: 14.5px;
+  }
+  .social-media {
+    width: 102.1px;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .background-parent,
+  .sign-in,
+  .social-media {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .background-parent {
+    align-self: stretch;
+    background-color: #487bc0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 256px 13.5px var(--padding-150xl);
+    max-width: 100%;
+    gap: var(--gap-xl);
+    z-index: 3;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--white);
+    font-family: var(--font-adobe-gothic-std);
+  }
+  .sign-in {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 162px 0 0;
+    gap: 243px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1275px) {
+    .background-parent {
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .background-parent {
+      padding-left: 84px;
+      padding-right: 128px;
+      box-sizing: border-box;
+    }
+    .sign-in {
+      gap: 121px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .sign-in1 {
+      font-size: 22px;
+    }
+    .confirmation {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .contact-info {
+      margin-left: 0;
+    }
+    .nav-links {
+      flex-wrap: wrap;
+    }
+    .navigation {
+      gap: 72px;
+    }
+    .background-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
